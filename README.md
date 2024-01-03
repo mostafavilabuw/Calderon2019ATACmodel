@@ -1,7 +1,7 @@
 # Calderon2019ATACmodel
 Example scripts to train, assess, and interpret CNN model architectures on ATAC-seq data from Calderon et al. 2019.
 
-The count matrix with aligned ATAC-seq Tn5 cuts can be downloaded from the Gene Expression Omnibus (GEO: [GSE118189](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118189)) ([Calderon et al. 2019](https://www.nature.com/articles/s41588-019-0505-9)). The data set contains 175 measurements for 829,942 genomic regions (peaks), spanning 45 unique human immune cell states from eleven different donors. The 45 immune cell states cover 25 resting cell types of which 20 are also included as stimulated cell states (Immature NK, Memory NK, Myeloid DC, Plasmablasts, and pDC don’t have a measured stimulated state). 
+The count matrix with aligned ATAC-seq Tn5 cuts can be downloaded from the Gene Expression Omnibus (GEO: [GSE118189](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118189)) ([Calderon et al. 2019](https://www.nature.com/articles/s41588-019-0505-9)). The [data matrix](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE118189&format=file&file=GSE118189%5FATAC%5Fcounts%2Etxt%2Egz) contains 175 measurements for 829,942 genomic regions (peaks), spanning 45 unique human immune cell states from eleven different donors. The 45 immune cell states cover 25 resting cell types of which 20 are also included as stimulated cell states (Immature NK, Memory NK, Myeloid DC, Plasmablasts, and pDC don’t have a measured stimulated state). 
 
 Follow steps in `data_processing.sh` to normalize the count matrix, i.e. taking the log2 of the counts, quantile normalize all samples, and compute the mean expression for all cell states across donors. 
 
