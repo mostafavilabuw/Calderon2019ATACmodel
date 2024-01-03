@@ -13,7 +13,9 @@ Model performance was analyzed as described in `assess_model.sh`.
 
 Gene regulatory grammar was identified as described in `interpret_cnn.sh`
 
-Parameters of the trained models can found in `/Models` and be loaded into the model for sequence analysis as described in `interpret_cnn.sh`
+Variant effect predictions can be performed as described in `pred_cnn.sh`
+
+Parameters of the trained models can found in `/Models` and be loaded into the model for global analysis or sequence analysis as described in `interpret_cnn.sh` and `pred_cnn.sh`.
 
 Mouse ATAC-seq data can be found here https://github.com/smaslova/AI-TAC/
 or the processed data files can be downloaded individually using the following links:
