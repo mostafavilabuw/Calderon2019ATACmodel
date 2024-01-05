@@ -1,4 +1,6 @@
-Model parameters are saved in *_parameter.pth files and selected model hyper-parameters for model initilization are saved in *_model.dat
+Model parameters can be downloaded from https://zenodo.org/doi/10.5281/zenodo.10463520
+
+Model parameters are saved as *_parameter.pth files and selected model hyper-parameters for model initilization are saved in *_model_params.dat
 
 - Shallow CNN
 
